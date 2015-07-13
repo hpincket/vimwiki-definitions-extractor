@@ -31,7 +31,7 @@ BEGIN {
     DECK = "";
 }
 {
-    if (NF==1 && VALUE == 1) {
+    if (NF<=1 && VALUE == 1) {
         if(WORD == "DECK") {
             DECK = DEF;
         } else {

@@ -20,7 +20,7 @@ Note: Spaces won't matter for the script.
 Cool feature: Add a DECK definition to your vimwiki files above normal
 definitions to separate your terms. All following definitions will be placed in
 that category until a new DECK is declared or a new file starts. Failing to
-declare DECK will default definitions to a misc file.
+declare DECK will default definitions to a default file.
 
 Example:
 
